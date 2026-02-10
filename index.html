@@ -337,7 +337,7 @@
         let pageNumPending = null;
 
         // Load PDF
-        const url = '/KP Eduser.pdf';
+        const url = '/KP EDUSER.pdf';
         
         pdfjsLib.getDocument(url).promise.then(function(pdf) {
             pdfDoc = pdf;
@@ -449,7 +449,7 @@
         // Download function
         function downloadPDF() {
             const link = document.createElement('a');
-            link.href = '/KP Eduser.pdf';
+            link.href = '/KP EDUSER.pdf';
             link.download = '/KP EDUSER.pdf';
             
             document.body.appendChild(link);
